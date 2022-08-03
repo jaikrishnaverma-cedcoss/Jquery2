@@ -50,6 +50,19 @@ $(document).ready(function(){
                 $("#anchor9").attr("href",link);
                 $("#anchor9").text(Title);
             }
-        })
-   
+        });
+        $(".box10").on("click","#btn10",function(){
+            $("p#para_id").toggleClass('myClass');
+        });
+        $(".box11").on("click","#btn11",function(){
+            var div = $(".div11");
+            div.animate({height: '300px', opacity: '0.4'}, "slow");
+            div.animate({width: '300px', opacity: '0.8'}, "slow");
+            div.animate({height: '100px', opacity: '0.4'}, "slow");
+            div.animate({width: '100px', opacity: '0.8'}, "slow");
+          });
+          $(".box12").on("click","#btn12",function(){
+            $(".p12").fadeTo( 500, 0.40 );
+
+          });
 })
