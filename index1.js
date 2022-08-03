@@ -65,4 +65,8 @@ $(document).ready(function(){
             $(".p12").fadeTo( 500, 0.40 );
 
           });
+          $("#btn13").click(function()
+          {
+            $("p").fadeTo( 3000, 0.0 );
+          })
 })
