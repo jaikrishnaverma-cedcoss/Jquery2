@@ -68,5 +68,9 @@ $(document).ready(function(){
           $("#btn13").click(function()
           {
             $("p").fadeTo( 3000, 0.0 );
+          });
+          $("#btn14").click(function()
+          {
+            $("body").toggleClass('color');
           })
 })
